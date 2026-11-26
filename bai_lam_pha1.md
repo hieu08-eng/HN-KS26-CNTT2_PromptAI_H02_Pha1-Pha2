@@ -146,7 +146,7 @@ Tối 08/11/2026 gia đình tôi 5 người ăn buffet hải sản. Nhà hàng q
 **CAU LENH**
 
 ```text
-(Viết câu lệnh vào đây – xoá dòng này)
+viết phần còn lại của email phản hồi dựa trên trạm 2 và yêu cầu ở trạm 3 
 ```
 
 ## 4.5. Prompt chấm bài theo Rubric
@@ -154,7 +154,18 @@ Tối 08/11/2026 gia đình tôi 5 người ăn buffet hải sản. Nhà hàng q
 **PROMPT**
 
 ```text
-(Viết prompt vào đây – xoá dòng này)
+bạn là giám khảo chấm 
+<thong_tin_chuan>
+- Giá buffet LAU: 299.000 đồng/người lớn.
+- Quy định giữ bàn: đến trễ dưới 15 phút giữ nguyên bàn; trễ từ 15 đến 30 phút giữ bàn nếu còn chỗ; trễ trên 30 phút huỷ bàn.
+</thong_tin_chuan>
+
+<rubic>
+- Đúng thông tin (50%): giá và quy định giữ bàn đúng với thông tin chuẩn.
+- Đầy đủ (30%): trả lời đủ cả hai câu hỏi của khách và mời khách cung cấp ngày, giờ đến, số khách để đặt bàn.
+- Giọng điệu (20%): lịch sự, chuyên nghiệp, không dùng từ ngữ suồng sã.
+</rubic>
+
 ```
 
 ## 4.6. Hoàn thiện System Prompt
